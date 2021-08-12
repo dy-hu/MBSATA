@@ -1,0 +1,110 @@
+.wave-container > svg {
+    display: block;
+    
+  }
+
+  .wave-container {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  
+ 
+  }
+
+  @keyframes animateWave {
+    0% {
+      transform: scale(1,0);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
+  .wave-container > svg {
+    display: block;
+    transform-origin: bottom;
+    animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+    padding-right: 0;
+  }
+
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 0px;
+  }
+
+  #wave {
+      padding-right:0px;
+      padding-left: 0px;
+  }
+
+  .footer {
+      position: absolute;
+      bottom: 0;
+      width:100%;
+  }
+
+  .contactdiv {
+      background-color: #9ffdca;
+      color:black;
+  }
+  
+  .card-text {
+    color:black;
+  }
+  
+  .card-title {
+    color:black;
+  }
+
+  .AP {
+    display:none;
+  }
+
+  .AR {
+    display:none;
+  }
+
+  .APM {
+    display:none;
+  }
+
+  .ADE {
+    display:none;
+  }
+
+  .EM {
+    display:none;
+  }
+
+  .FS {
+    display:none;
+  }
+
+  .FM {
+    display:none;
+  }
+
+  .HR {
+    display:none;
+  }
+
+  .IM {
+    display:none;
+  }
+
+  .IM2 {
+    display:none;
+  }
+
+  .PS {
+    display:none;
+  }
+
+  .STM {
+    display:none;
+  }
+
+  .accordion {
+    background-color:#0C142B;
+    color:black;
+  }

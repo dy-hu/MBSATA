@@ -1,0 +1,39 @@
+$(document).ready(function(){
+
+    $('input[id="btncheck1"]').click(function(){
+        $(".AP").fadeToggle("slow");
+    })
+    $('input[id="btncheck2"]').click(function(){
+        $(".AR").fadeToggle("slow");
+    })
+    $('input[id="btncheck3"]').click(function(){
+        $(".APM").fadeToggle("slow");
+    })
+    $('input[id="btncheck4"]').click(function(){
+        $(".ADE").fadeToggle("slow");
+    })
+    $('input[id="btncheck5"]').click(function(){
+        $(".EM").fadeToggle("slow");
+    })
+    $('input[id="btncheck6"]').click(function(){
+        $(".FS").fadeToggle("slow");
+    })
+    $('input[id="btncheck7"]').click(function(){
+        $(".FM").fadeToggle("slow");
+    })
+    $('input[id="btncheck8"]').click(function(){
+        $(".HR").fadeToggle("slow");
+    })
+    $('input[id="btncheck9"]').click(function(){
+        $(".IM").fadeToggle("slow");
+    })
+    $('input[id="btncheck10"]').click(function(){
+        $(".IM2").fadeToggle("slow");
+    })
+    $('input[id="btncheck11"]').click(function(){
+        $(".PS").fadeToggle("slow");
+    })
+    $('input[id="btncheck12"]').click(function(){
+        $(".STM").fadeToggle("slow");
+    })
+});

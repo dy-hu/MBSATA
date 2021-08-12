@@ -1,0 +1,9 @@
+body {
+    overflow:scroll;
+    background-repeat:no-repeat;
+    box-shadow: inset 0 0 0rem rgba(0, 0, 0, .5);
+}
+
+.card-footer {
+    color:black;
+}
